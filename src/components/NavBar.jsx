@@ -3,11 +3,11 @@ import { useState, useEffect } from "react";
 const links = [
   {
     to: "/#features",
-    label: "Features",
+    label: "Get Started",
   },
   {
-    to: "/#solution",
-    label: "Solution",
+    to: "/#features",
+    label: "Learn More",
   },
   {
     to: "/#reviews",
@@ -135,7 +135,7 @@ const Navbar = () => {
                   ))}
                   <li>
                     <a
-                      href="https://tailus.gumroad.com/l/astls-premium"
+                      href="https://ppableo.github.io/"
                       target="_blank"
                       className="flex gap-2 font-semibold text-gray-700 transition hover:text-primary light:text-white light:hover:text-white md:px-4"
                     >
@@ -150,7 +150,7 @@ const Navbar = () => {
 
               <div className="mt-12 lg:mt-0">
                 <a
-                  href="/register"
+                  href="#"
                   className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
                 >
                   <span className="relative text-sm font-semibold text-white">
