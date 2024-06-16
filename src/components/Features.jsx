@@ -8,12 +8,10 @@ const Features = () => {
       <div id="features" className="my-20">
         <div className="p-8 border border-gray-100 rounded-3xl bg-white light:bg-gray-800 light:border-gray-700 shadow-2xl shadow-gray-600/10 light:shadow-none">
           <Accordion
-            title={<h3 className="text-primary text-3xl py-2">Face</h3>}
+            title={<h3 className="text-primary text-xl py-2">Face</h3>}
             answer={
               <div>
-                <p className="mb-4  semi-bold">
-                 Face Value: 50%
-                </p>
+                <p className="mb-4  semi-bold">Face Value: 50%</p>
                 <div className="relative w-full h-80">
                   <Image
                     src="/assets/subjectiveFaceScale.png"
@@ -26,20 +24,18 @@ const Features = () => {
                 <div>
                   <h4 className="mt-4">Find your value out of 10</h4>
                   <p>
-                  Whichever face is similar to yours is your approximate facial
-                  attractiveness
+                    Whichever face is similar to yours is your approximate
+                    facial attractiveness
                   </p>
                 </div>
               </div>
             }
           />
           <Accordion
-            title={<h3 className="text-primary text-3xl py-2">Height</h3>}
+            title={<h3 className="text-primary text-xl py-2">Height</h3>}
             answer={
               <div>
-                <p className="mb-4">
-                  Height Value: 30%
-                </p>
+                <p className="mb-4">Height Value: 30%</p>
                 <div className="relative w-full h-80">
                   <Image
                     src="/assets/SubjectiveHeightScale.png"
@@ -51,18 +47,16 @@ const Features = () => {
                 </div>
                 <div>
                   <h4 className="mt-4">Find your value out of 10</h4>
-                  <p>More content inside a div element.</p>
+                  <p>Statistics Based off Top Dating Apps</p>
                 </div>
               </div>
             }
           />
           <Accordion
-            title={<h3 className="text-primary  text-3xl py-2">Physique</h3>}
+            title={<h3 className="text-primary  text-xl py-2">Physique</h3>}
             answer={
               <div>
-                <p className="mb-4">
-                Body Value: 20%
-                </p>
+                <p className="mb-4">Body Value: 20%</p>
                 <div className="relative w-full h-80">
                   <Image
                     src="/assets/SubjectiveBodyScale.png"
@@ -80,7 +74,16 @@ const Features = () => {
                       If you're below 20%
                     </span>
                     body fat, you'll add or minus points dependent on body
-                    composition based off BMI
+                    composition based off{" "}
+                    <a
+                      href="https://www.diabetes.ca/resources/tools---resources/body-mass-index-(bmi)-calculator"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:text-blue-700 font-semibold"
+                    >
+                      BMI
+                    </a>
+                    .
                   </p>
                 </div>
                 <div className="relative w-full h-80">
