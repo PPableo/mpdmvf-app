@@ -38,7 +38,7 @@ const Features = () => {
                 <p className="mb-4">Height Value: 30%</p>
                 <div className="relative w-full h-80">
                   <Image
-                    src="/assets/SubjectiveHeightScale.png"
+                    src="/assets/subjectiveHeightScale.png"
                     alt="Subjective Height Scale"
                     layout="fill"
                     objectFit="contain"
@@ -59,8 +59,8 @@ const Features = () => {
                 <p className="mb-4">Body Value: 20%</p>
                 <div className="relative w-full h-80">
                   <Image
-                    src="/assets/SubjectiveBodyScale.png"
-                    alt="Subjective Face Scale"
+                    src="/assets/subjectiveBodyScale.png"
+                    alt="Subjective Body Scale"
                     layout="fill"
                     objectFit="contain"
                     className="rounded-lg"

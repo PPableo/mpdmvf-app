@@ -58,13 +58,13 @@ const Mpdmvf = () => {
       statement = "If you fail here, fix your personality";
     } else if (calculatedResult > 6 && calculatedResult <= 7) {
       statement = "Easy Mode";
-    } else if (calculatedResult > 7 && calculatedResult <= 8) {
+    } else if (calculatedResult > 7.5 && calculatedResult <= 10) {
       statement = "You're different";
     } else {
       statement = "Enter a Valid Number";
     }
 
-    setResult(`Your PDMV is ${egoBoost.toFixed(2)}. ${statement}`);
+    setResult(`Your PDMV is ${egoBoost.toFixed(2)}, ${statement}`);
   };
 
   return (
@@ -125,7 +125,7 @@ const Mpdmvf = () => {
         </div>
         {result && (
           <p className="mt-4 text-gray-700 light:text-gray-300 col-span-1 sm:col-span-3 text-center">
-            {result}
+            <span className="text-primary text-3xl font-semibold">{result}</span>
           </p>
         )}
       </form>

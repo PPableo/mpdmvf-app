@@ -2,8 +2,8 @@ import Container from "./Container";
 
 const Footer = () => {
   return (
-    <footer className="py-10 md:py-20">
       <Container>
+    <footer className="py-10 md:py-20">
         <div className="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12">
           <div className="flex flex-wrap items-center justify-between md:flex-nowrap">
             <div className="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-start">
@@ -133,7 +133,7 @@ const Footer = () => {
             </div>
             <div className="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left">
               <span className="block text-gray-500 dark:text-gray-400">
-                For fun or For Change
+                Subjective Tools and Analysis Software
               </span>
 
               <span className="block text-gray-500 dark:text-gray-400">
@@ -163,8 +163,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </Container>
     </footer>
+      </Container>
   );
 };
 
