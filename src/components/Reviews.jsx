@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Reviews = () => {
   return (
-    <Container>
       <div className="text-gray-600 light:text-gray-300" id="reviews">
+    <Container>
         <div className="m-20 space-y-4 px-6 md:px-0">
           <h2 className="text-center text-2xl font-bold text-gray-800 light:text-white md:text-4xl">
             We have some <span className="text-primary"> fans.</span>
@@ -179,8 +179,8 @@ const Reviews = () => {
             </p>
           </div>
         </div>
-      </div>
     </Container>
+      </div>
   );
 };
 
