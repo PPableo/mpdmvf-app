@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+<div style="text-align:center; background-color: #f7f7f7; margin: 10px;">
+  <a href="https://mpdmvf-app.vercel.app/">
+    <img src="./public/assets/landing.png" alt="mpdmvf calculator link" />
+  </a>
+</div>
+
+## About
+
+The idea for this application originated from a TikTok video that featured a "formula" to calculate one's dating viability based on superficial attributes such as face, height, and body. The video encouraged viewers to follow along and determine their subjective rating. To simplify this process, I figured I’d create a calculator based on the Male Physical Dating Market Value Formula. Calculator will take user inputs for these attributes and compute the rating dynamically. This application aims to enhance user experience by providing an interactive and seamless way to calculate and display the dating viability score based on the given criteria. Its dynamic nature makes it an excellent case for practicing input handling and real-time data display in React.
+
 ## Getting Started
 
 First, run the development server:
