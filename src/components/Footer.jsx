@@ -7,31 +7,21 @@ const Footer = () => {
         <div className="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12">
           <div className="flex flex-wrap items-center justify-between md:flex-nowrap">
             <div className="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-start">
-              <ul className="list-inside list-disc space-y-8">
+              <ul className="list-inside list-disc space-y-4">
                 <li>
-                  <a href="#" className="transition hover:text-primary">
+                  <a href="#home" className="transition hover:text-primary">
                     Home
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" className="transition hover:text-primary">
+                  <a href="#home" className="transition hover:text-primary">
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="transition hover:text-primary">
-                    Guide
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="transition hover:text-primary">
-                    Blocks
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="transition hover:text-primary">
-                    Contact
+                  <a href="#features" className="transition hover:text-primary">
+                    Features
                   </a>
                 </li>
                 <li>
@@ -41,10 +31,10 @@ const Footer = () => {
                 </li>
               </ul>
 
-              <ul role="list" className="space-y-8">
+              <ul role="list" className="space-y-6">
                 <li>
                   <a
-                    href="#"
+                    href="https://github.com/PPableo/mpdmvf-app"
                     className="flex items-center space-x-3 transition hover:text-primary"
                   >
                     <svg
@@ -130,39 +120,6 @@ const Footer = () => {
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      className="5"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
-                    </svg>
-                    <span>Pintrest</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center space-x-3 transition hover:text-primary"
-                  >
-                    <img
-                      className="h-5 w-5"
-                      width="32"
-                      height="32"
-                      src="https://c5.patreon.com/external/favicon/favicon.ico?v=69kMELnXkB"
-                      alt="patreon icon"
-                    />
-                    <span>Patreon</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center space-x-3 transition hover:text-primary"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
                       className="w-5"
                       viewBox="0 0 16 16"
@@ -176,11 +133,11 @@ const Footer = () => {
             </div>
             <div className="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left">
               <span className="block text-gray-500 dark:text-gray-400">
-                We change the way UI components librairies are used
+                For fun or For Change
               </span>
 
               <span className="block text-gray-500 dark:text-gray-400">
-                Tailus Blocks &copy; <span id="year"></span>
+                Paul Pableo &copy; <span id="year"></span>
               </span>
 
               <span className="flex justify-between text-gray-600 dark:text-white">
